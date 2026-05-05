@@ -23,8 +23,34 @@ public class Viatura {
     public void setidentificadorViatura(String _identificarViatura) {
         identificadorViatura = _identificadorViatura;
     }
-    public int gettipo () {
+    public String gettipo () {
         return tipo;
     }
-  
+    public void settipo(String _tipo) {
+        tipo = _tipo;
+    }
+    public String getprefixo() {
+        return prefixo;
+    }
+    public void setprefixo(String _prefixo) {
+       prefixo = _prefixo; 
+    }
+    public String getplaca() {
+        return placa;
+    }
+    public void setplaca(String _placa) {
+        placa = _placa;
+    }
+    public int getstatus() {
+        return status;
+    }
+    public void setstatus(int _status){
+        status = _status;
+    }
+     public String getlocalizacaoAtualouUltimaLocalizacao(String _localizacaoouUltimaLocalizacao) {
+         return localizacaoAtualouUltimaLocalizacao;
+     }
+     public void setlocalizacacoAltualouUltimaLocalizacao(String _localizacaoAtualouUtilaLocalizacao) {
+         localizacaoAtualouUltimaLocalizacao = _localizacaoAtualouUltimaLocalizacao;
+     }
 }
