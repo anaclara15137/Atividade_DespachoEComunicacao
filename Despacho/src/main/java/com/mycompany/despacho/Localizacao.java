@@ -9,33 +9,40 @@ package com.mycompany.despacho;
  * @author conza
  */
 public class Localizacao {
-    
+
     private int identificadorLocalizacao;
     private int latitude;
     private int longitude;
     private String endereco;
-    
+
     public int getidentificadorlocalizacao() {
         return identificadorLocalizacao;
     }
+
     public void setidentificadorLocalizacao(int _identificadorLocalizacao) {
         identificadorLocalizacao = _identificadorLocalizacao;
-    } 
-    public int getlatitude () {
+    }
+
+    public int getlatitude() {
         return latitude;
     }
+
     public void setlatitude(int _latitude) {
-        latitude =_latitude;
+        latitude = _latitude;
     }
+
     public int getlongitude() {
         return longitude;
     }
+
     public void setlongitude(int _longitude) {
         longitude = _longitude;
     }
+
     public String getendereco() {
         return endereco;
     }
+
     public void setendereco(String _endereco) {
         endereco = _endereco;
     }

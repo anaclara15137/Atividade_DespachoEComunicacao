@@ -4,6 +4,7 @@
  */
 package com.mycompany.despacho;
 
+import java.sql.Time;
 import java.util.Date;
 
 /**
@@ -11,55 +12,68 @@ import java.util.Date;
  * @author aluno
  */
 public class Comunicacao {
-    
+
     private int identificadorComunicacao;
     private String tipo;
     private String mensagem;
     private Date Data;
-    private int Hora;
+    private Time Hora;
     private int remetente;
     private int destinatario;
-    
+
     public int getidentificadorComunicacao() {
         return identificadorComunicacao;
     }
+
     public void setidentificadorComunicacao(int _identificadorComunicacao) {
         identificadorComunicacao = _identificadorComunicacao;
     }
+
     public String gettipo() {
         return tipo;
     }
+
     public void settipo(String _tipo) {
         tipo = _tipo;
     }
+
     public String getmensagem() {
         return mensagem;
     }
+
     public void setmensagem(String _mensagem) {
         mensagem = _mensagem;
     }
+
     public Date getdata() {
         return Data;
     }
+
     public void setdata(Date _data) {
         Data = _data;
     }
-    public int getHora() {
+
+    public Time getHora() {
         return Hora;
     }
-    public void setHora(int _Hora) {
+
+    public void setHora(Time _Hora) {
         Hora = _Hora;
     }
-    public int getremetente () {
+
+    public int getremetente() {
         return remetente;
     }
-    public void setRemetente (int _remetente) {
+
+    public void setRemetente(int _remetente) {
         remetente = _remetente;
     }
+
     public int getdestinatario() {
         return destinatario;
     }
-    public void setdestinatario(int _destinatario){
+
+    public void setdestinatario(int _destinatario) {
         destinatario = _destinatario;
     }
-} 
+}

@@ -4,6 +4,7 @@
  */
 package com.mycompany.despacho;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -13,7 +14,7 @@ import java.util.List;
 public class Equipe {
 
     private int identificadorEquipe;
-    private List listaBombeiros;
+    private List<Bombeiro> listaBombeiros = new ArrayList<Bombeiro>();
 
     public int getidentificadorEquipe() {
         return identificadorEquipe;
@@ -23,12 +24,12 @@ public class Equipe {
         identificadorEquipe = _identificadorEquipe;
     }
 
-    public List getlistaBombeiros() {
+    public List<Bombeiro> getListaBombeiros() {
         return listaBombeiros;
     }
 
-    public void setlistaBombeiros(List _listaBombeiros) {
-        listaBombeiros = _listaBombeiros;
+    public void setlistaBombeiros(List<Bombeiro>listaBombeiros) {
+        this.listaBombeiros = listaBombeiros;
     }
 
 }

@@ -9,34 +9,41 @@ package com.mycompany.despacho;
  * @author conza
  */
 public class UsuariodoSistema {
-    
+
     private int identificadorUsuario;
     private String login;
     private String senha;
     private String perfil;
-    
+
     public int getidentificadorUsuario() {
         return identificadorUsuario;
     }
+
     public void setidentificadorUsuario(int _identificadorUsuario) {
         identificadorUsuario = _identificadorUsuario;
     }
+
     public String getlogin() {
         return login;
     }
+
     public void setlogin(String _login) {
-        login =_login;
+        login = _login;
     }
-    public String getsenha () {
+
+    public String getsenha() {
         return senha;
     }
+
     public void setsenha(String _senha) {
-        senha =_senha;
+        senha = _senha;
     }
+
     public String getperfil() {
         return perfil;
     }
-    public void setperfil(String _perfil ) {
+
+    public void setperfil(String _perfil) {
         perfil = _perfil;
     }
 }

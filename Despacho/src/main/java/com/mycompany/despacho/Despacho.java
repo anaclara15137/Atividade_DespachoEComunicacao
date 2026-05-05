@@ -17,34 +17,43 @@ public class Despacho {
     private String horaDespacho;
     private String status;
     private int ocorrencia;
-    
+
     public int getidentificadorDespacho() {
         return identificadorDespacho;
     }
+
     public void setidentificadorDespacho(int _identificadorDespacho) {
         identificadorDespacho = _identificadorDespacho;
     }
+
     public Date getdataDespacho() {
-       return dataDespacho;
+        return dataDespacho;
     }
-    public void getdataDespacho(int _dataDespacho) {
-        dataDespacho =_dataDespachoo;
+
+    public void setdataDespacho(Date _dataDespacho) {
+        dataDespacho = _dataDespacho;
     }
+
     public String gethoraDespacho() {
         return horaDespacho;
     }
+
     public void horaDespachp(String _horaDespacho) {
-        horaDespacho =_horaDespacho;
+        horaDespacho = _horaDespacho;
     }
+
     public String getstatus() {
         return status;
     }
+
     public void setstatus(String _status) {
         status = _status;
     }
+
     public int getocorrencia() {
         return ocorrencia;
     }
+
     public void setocorrencia(int _ocorrencia) {
         ocorrencia = _ocorrencia;
     }
