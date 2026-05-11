@@ -11,8 +11,8 @@ package com.mycompany.despacho;
 public class Localizacao {
 
     private int identificadorLocalizacao;
-    private int latitude;
-    private int longitude;
+    private double latitude;
+    private double longitude;
     private String endereco;
 
     public int getidentificadorlocalizacao() {
@@ -23,19 +23,19 @@ public class Localizacao {
         identificadorLocalizacao = _identificadorLocalizacao;
     }
 
-    public int getlatitude() {
+    public double getlatitude() {
         return latitude;
     }
 
-    public void setlatitude(int _latitude) {
+    public void setlatitude(double _latitude) {
         latitude = _latitude;
     }
 
-    public int getlongitude() {
+    public double getlongitude() {
         return longitude;
     }
 
-    public void setlongitude(int _longitude) {
+    public void setlongitude(double _longitude) {
         longitude = _longitude;
     }
 
