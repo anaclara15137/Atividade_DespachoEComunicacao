@@ -4,6 +4,7 @@
 
 package com.mycompany.despacho;
 
+import java.sql.Time;
 import java.util.Date;
 
 /**
@@ -15,7 +16,7 @@ public class Ocorrencia {
   private int identificadorOcorrencia;
   private String tipo;
   private Date data;
-  private int hora; 
+  private Time hora; 
   private String local;
   private String descricao;
   private int status;
@@ -46,11 +47,11 @@ public class Ocorrencia {
         data = _data;
     }
     
-    public int gethora() {
+    public Time gethora() {
         return hora;
     }
     
-    public void sethora(int _hora) {
+    public void sethora(Time _hora) {
         hora = _hora;
     }
     
